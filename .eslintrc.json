@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "indent": ["warn", 2], // 使用2个空格缩进
+    "quotes": ["warn", "single"], // 强制使用单引号
+    "semi": ["warn", "never"], // 禁止行尾分号
+    "comma-dangle": ["warn", "never"], // 禁止尾随逗号
+    "object-curly-spacing": ["warn", "always"] // 对象大括号前后要求有空格
+  }
 }
