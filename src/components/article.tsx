@@ -1,7 +1,7 @@
 function Article() {
   return (
     <>
-      <article className=" mx-auto max-w-screen-md  text-xl">
+      <article className="mx-auto mt-10 max-w-screen-md text-xl">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac rhoncus quam.</p>
         <p>
           Fringilla quam urna. Cras turpis elit, euismod eget ligula quis, imperdiet sagittis justo.
