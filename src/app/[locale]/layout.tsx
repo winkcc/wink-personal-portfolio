@@ -1,4 +1,4 @@
-import ThemeSwitch from '@/components/ThemeTwich'
+import ThemeSwitch from '@/components/ThemeSwitch'
 import WidgetWrapper from '@/components/WidgetWrapper'
 import Article from '@/components/article'
 import Header from '@/components/header'
