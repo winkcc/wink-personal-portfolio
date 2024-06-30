@@ -46,12 +46,12 @@ export default function Intro() {
         </motion.div>
       </div>
 
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 100 }}
       >
-        Hello! My name is Wei kang. I'm a backend developer with
+        Hello! My name is Wei kang. I&apos;m a backend developer with
         <span className="font-bold"> 2 years</span> of experience. I really enjoy the convenience
         that programming brings me. My programming focus is most on
         <span className="font-bold"> elegant code</span> and
@@ -93,7 +93,7 @@ export default function Intro() {
             <BsGithub />
           </a>
         </motion.div>
-      </motion.p>
+      </motion.h1>
     </section>
   )
 }
