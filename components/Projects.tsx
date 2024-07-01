@@ -8,7 +8,7 @@ import React, { useRef } from 'react'
 
 export default function Projects() {
   return (
-    <section className="mb-28 scroll-mt-28">
+    <section id="projects" className="mb-28 scroll-mt-28">
       <div>
         <SectionHeading>My projects</SectionHeading>
         {projectsData.map((project, index) => (
