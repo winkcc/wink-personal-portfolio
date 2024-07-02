@@ -2,13 +2,16 @@
 
 import SectionHeading from '@/components/Section-Heading'
 import { projectsData } from '@/lib/data'
+import { useSectionInView } from '@/lib/hooks'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import Image from 'next/image'
 import React, { useRef } from 'react'
 
 export default function Projects() {
+  const { ref } = useSectionInView('Projects', 0.2)
+
   return (
-    <section id="projects" className="mb-28 scroll-mt-28">
+    <section ref={ref} id="projects" className="mb-28 scroll-mt-28">
       <div>
         <SectionHeading>My projects</SectionHeading>
         {projectsData.map((project, index) => (
