@@ -10,7 +10,7 @@ import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
 
 export default function Intro() {
-  const { ref } = useSectionInView('Home')
+  const { ref } = useSectionInView('Home', 0.2)
   return (
     <section
       id="home"

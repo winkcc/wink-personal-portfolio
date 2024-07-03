@@ -8,7 +8,7 @@ import React, { useEffect } from 'react'
 import { useInView } from 'react-intersection-observer'
 
 export default function About() {
-  const { ref } = useSectionInView('About')
+  const { ref } = useSectionInView('About', 0.5)
   return (
     <motion.section
       ref={ref}
